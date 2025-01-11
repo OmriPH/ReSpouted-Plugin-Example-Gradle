@@ -20,6 +20,7 @@ public class ExampleBlock extends GenericCustomBlock {
         if (!player.isSpoutCraftEnabled()) return false; // Only interact if Spout player (Spout can allow vanilla clients to join)
 
         player.getInventory().addItem(new SpoutItemStack(Main.get().EXAMPLE_BLOCK)); // Give player a Spout block
+        player.updateInventory(); // Update the player's inventory (temporary fix)
         return true;
     }
 }
