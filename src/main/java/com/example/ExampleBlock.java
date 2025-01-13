@@ -13,7 +13,7 @@ public class ExampleBlock extends GenericCustomBlock {
         // Plugin instance, Block ID, is opaque
         // GenericCubeBlockDesign takes Plugin instance, url to PNG texture, texture size
         super(plugin, "exampleblock", true, new GenericCubeBlockDesign(plugin, "https://i.ibb.co/YWs9T00/sugar-cane-block.png", 16));
-        setName("Example Block");
+        setName("Example Block"); // Set block name
     }
 
     // Run code when the block is interacted with!

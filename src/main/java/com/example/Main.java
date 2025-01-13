@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         plugin = this;
-        // The item needs to be initialised somewhere. Add as variable to this class so it can be referenced to add to inventories
+        // The items & blocks need to be initialised somewhere. Add as variable to this class so it can be referenced to add to inventories
         EXAMPLE_ITEM = new ExampleItem();
         EXAMPLE_BLOCK = new ExampleBlock();
         EXAMPLE_FOOD = new ExampleFood();
